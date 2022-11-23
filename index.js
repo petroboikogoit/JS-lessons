@@ -50,10 +50,11 @@
 
 // Індекс маси тіла необхідно округлити до однієї цифри після коми;
 
-// parseFloat(), Number(), indexOf, slice
+// parseFloat(), Number(), indexOf(), slice()
 
 const weight = "88,3";
 const height = "1.75";
+console.log(parseFloat(weight));
 
 const bmi = weight / Math.pow(height, 2);
 console.log(bmi); // 28.8
@@ -114,8 +115,9 @@ console.log(bmi); // 28.8
 
 // console.log(null || (2 && 3) || 4);
 
-// Example 9 - Значення за замовчуванням та оператор нульового злиття
-// Отрефактори код так, щоб у змінну value присвоювалося значення змінної incomingValue, якщо воно не рівне undefined або null. В іншому випадку має присвоюватися значення defaultValue. Перевір роботу скрипта для наступних значень змінної incomingValue: null, undefined, 0, false. Використовуй оператор ?? (nullish coalescing operator).
+// Example 9 - Значення за замовчуванням та оператор нульового злиття ( ?? )
+// Отрефактори код так, щоб у змінну value присвоювалося значення змінної incomingValue, якщо воно не рівне undefined або null.
+// В іншому випадку має присвоюватися значення defaultValue. Перевір роботу скрипта для наступних значень змінної incomingValue: null, undefined, 0, false. Використовуй оператор ?? (nullish coalescing operator).
 
 // const incomingValue = 5;
 // const defaultValue = 10;
