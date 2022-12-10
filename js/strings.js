@@ -1,11 +1,11 @@
 'use strict';
 /*
- * Конкатенация строк, шаблонные строки
+ * Конкатенація рядків, шаблонні рядки
  */
 
 /*
-  ? Запросите у пользователя имя с возрастом и выведете в консоль сообщение:
-  ? Hello имя_пользователя, your age is возраст_пользователя .
+  ? Запитайте у користувача ім'я з віком та виведіть у консоль повідомлення::
+  ? Hello імя_користувача, your age is вік_користувача .
 */
 
 // const username = prompt('Your name?');
@@ -14,37 +14,31 @@
 
 // console.log(message);
 
-//? Выполните задачу выше, используя шаблонные строки
+//? Виконайте завдання вище, використовуючи шаблонні рядки
+
 // const username = prompt('Your name?');
 // const age = prompt('Your age?');
-// const message = `Hello ${username}, your age is ${age}`;
+// const message = ;
 
 // console.log(message);
 
 /*
- * Свойства и Методы строк
+ * Властивості і методи рядків
  */
 
-//? Запросите у пользователя имя и узнайте из скольких символов, состоит имя.
+//? Запитайте у користувача ім'я та дізнайтеся з кількох символів, чи складається ім'я.
 // const username = prompt('Your name?');
 
-// console.log(username.length);
-//? Попросите пользователя ввести email и переведите в нижний регистр.
+//? Попросіть користувача ввести email та переведіть його у нижній регістр.
 // let userEmail = prompt('Your email?');
-// userEmail = userEmail.toLowerCase();
-
-// console.log(userEmail);
 
 //? Попросите пользователя ввести email и переведите в верхний регистр
 // let userEmail = prompt('Your email?');
-// userEmail = userEmail.toUpperCase();
-
-// console.log(userEmail);
 
 /*
-  ? Есть строка 'HTML, CSS, JS, PHP, React, Vue, Node.js, C, C++'.
-  ? Узнайте есть ли в этой строке язык: 'JavaScript', или 'JS'?.
-  ? Если есть, узнайте позицию на которой находиться данная подстрока
+  ? Є строка 'HTML, CSS, JS, PHP, React, Vue, Node.js, C, C++'.
+  ? Дізнайтеся, чи є в цьому рядку мова: 'JavaScript', или 'JS'?.
+  ? Якщо є, дізнайтесь позицію на якій знаходиться цей підрядок
 */
 
 // let languagesStr = 'HTML, CSS, JS, PHP, React, Vue, Node.js, C, C++'.toLowerCase();
@@ -54,7 +48,7 @@
 
 // console.log(indexOfSubStr);
 
-//? У нас есть строка '24px', узнайте на что заканчивается данная строка, на %, rem, em или px;
+//? Є строка '24px', дізнайтеся на що закінчується цей рядок, на %, rem, em чи px;
 // const str = '24px';
 // const subStr = 'px';
 
@@ -63,34 +57,34 @@
 //? У нас есть строка '23,4', замените запятую на точку
 // let str = '23,4';
 // str = str.replace(',', '.');
-// str = Number.parseFloat(str);
+// str = parseFloat(str);
 
 // console.log(str);
 
 /*
-  ? У нас есть строка:
+  ? У нас є рядок:
   ? 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?'.
-  ? Замените все вхожденя dog на monkey.
+  ? Замініть всі вхожденя dog на monkey.
 */
 // let str = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
-// str = str.replaceAll('dog', 'monkey');
-
-// console.log(str);
 
 //? У нас есть дата в формате '12:05:21', замените (:) на (.)
 // let someDate = '12:05:21';
-// someDate = someDate.replaceAll(':', '.');
-
-// console.log(someDate);
 
 /*
-  ? Данна строка 'Vasyl Pupkin is 24 years old'.
-  ? Скопируйте с этой строки отдельно имя с фамилией и отдельно возраст.
+  ? Дана строка 'Vasyl Pupkin is 24 years old'.
+  ? отримати індекси імені та віку.
+  ? отримати імя та прізвище.
 */
 // const someStr = 'Vasyl Pupkin is 24 years old';
-// const subStr = '24';
 
-// const indexOfUsername = someStr.indexOf(subStr);
-// const username = someStr.slice(indexOfUsername, indexOfUsername + subStr.length);
+// const indexOfUserName = someStr.indexOf('Vasyl Pupkin');
+// const indexOfUserAge = someStr.indexOf('24');
+// const indexOfUserInfo = someStr.indexOf('some info');
+// const userFullName = someStr.slice(0, 13);
 
-// console.log(username);
+// console.log(indexOfUserName);
+// console.log(indexOfUserAge);
+// console.log(indexOfUserInfo);
+
+// console.log(userFullName);

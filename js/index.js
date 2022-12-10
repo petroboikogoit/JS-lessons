@@ -1,28 +1,36 @@
 /*
- * Базовые примитивные типы: number, string, boolean, null и undefined.
+ * Типи даних: number, string, boolean, null, undefined, BigInt, Sumbol, object.
  */
 
 /*
- * Вывод данных: console.log и alert. Вкладка Console в Chrome Devtools.
+ * Вивід даних : console.log i alert. Вкладка Console в Chrome Devtools.
  */
 
 // console.log('10');
-alert('Hello');
+// alert('Hello');
 
 /*
- * Переменные: объявление с let и const, именование.
+ * змінні:  let та const,
  */
 
-// const userLastName = 'Bertie';
+// someVariabel = 'text';
+// console.log(someVariabel);
 
-// username = 'Winifred';
+// let number = 1;
+// number = 100;
+// console.log(number);
 
+// const userLastName = 'Last';
+// userLastName = 'Ann';
 // console.log(username);
 
+var oldSyntax = 'bad practice';
+console.log(oldSyntax);
+
 /*
- * Получение данных: prompt и confirm.
+ * отримання даних: prompt, confirm.
  */
-// const userAge = prompt('Сколько тебе лет?');
-// const isAdult = confirm('Вам есть 18 лет?');
+// const userAge = prompt('Скільки тобі років?');
+// const isAdult = confirm('Тобі є 18 років?');
 
 // console.log(isAdult);
