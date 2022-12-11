@@ -24,8 +24,8 @@
 // userLastName = 'Ann';
 // console.log(username);
 
-var oldSyntax = 'bad practice';
-console.log(oldSyntax);
+// var oldSyntax = 'bad practice';
+// console.log(oldSyntax);
 
 /*
  * отримання даних: prompt, confirm.

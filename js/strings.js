@@ -54,7 +54,7 @@
 
 // console.log(str.endsWith(subStr));
 
-//? У нас есть строка '23,4', замените запятую на точку
+//? Є строка '23,4', замініть кому на крапку
 // let str = '23,4';
 // str = str.replace(',', '.');
 // str = parseFloat(str);
@@ -68,7 +68,7 @@
 */
 // let str = 'The quick brown fox jumps over the lazy dog. If the dog reacted, was it really lazy?';
 
-//? У нас есть дата в формате '12:05:21', замените (:) на (.)
+//? Є дата в форматі '12:05:21', замініть (:) на (.) //replaceAll()
 // let someDate = '12:05:21';
 
 /*

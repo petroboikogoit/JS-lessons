@@ -6,7 +6,7 @@
 // const num = 20;
 // const num2 = 3;
 
-// const result = num % num2;
+// const result = num + num2;
 
 // console.log(result);
 
@@ -58,9 +58,9 @@
 // console.log(str);
 
 //? Дана строка '25.5%', дістаньте з цієї строки дробове число.
-// const str = Number.parseFloat('25.5%');
+const str = parseFloat('25.5%');
 
-// console.log(str);
+console.log(str);
 
 //? Спробуйте привести до числа, дану строку 'abc'.
 // const str = Number('abc');
