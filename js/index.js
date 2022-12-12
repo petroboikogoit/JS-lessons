@@ -1,3 +1,4 @@
+// JS - обєктно-орієнтована, не строго типізована, однопоточна мова програмування.
 /*
  * Типи даних: number, string, boolean, null, undefined, BigInt, Sumbol, object.
  */
