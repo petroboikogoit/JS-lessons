@@ -181,29 +181,29 @@ console.log(calcAverage(1, 2, 3, 4)); // 2.5
 // console.log(calcAverage(27, 43, 2, 8, 36)); // 23.2
 
 /*
-? Напишите функции для работы с коллекцией обучающих курсов courses:
-? addCourse(name) - добавляет курс в конец коллекции
-? removeCourse(name) - удаляет курс из коллекции
-? updateCourse(oldName, newName) - изменяет имя на новое
+? Напишіть функції для роботи з колекцією навчальних курсів courses:
+? addCourse(name) - додає курс до кінця колекції
+? removeCourse(name) - видаляє курс із колекції
+? updateCourse(oldName, newName) – змінює ім'я на нове
 */
 
 // const courses = ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL'];
 
 // addCourse('Express');
 // console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'React', 'PostgreSQL', 'Express']
-// addCourse('CSS'); // 'У вас уже есть такой курс'
+// addCourse('CSS'); // 'У вас вже є такий курс'
 
 // removeCourse('React');
 // console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'Express']
-// removeCourse('Vue'); // 'Курс с таким именем не найден'
+// removeCourse('Vue'); // 'Курс з таким ім'ям не знайдено'
 
 // updateCourse('Express', 'NestJS');
 // console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'NestJS']
-// updateCourse('С++', 'NestJS'); // 'Курса с таким именем не найдено'
+// updateCourse('С++', 'NestJS'); // 'Курс з таким ім'ям не знайдено'
 
 // function addCourse(name) {
 //   if (courses.includes(name)) {
-//     console.log('У вас уже есть такой курс');
+//     console.log('У вас вже є такий курс');
 //     return;
 //   }
 
@@ -212,7 +212,7 @@ console.log(calcAverage(1, 2, 3, 4)); // 2.5
 
 // function removeCourse(name) {
 //   if (!courses.includes(name)) {
-//     console.log('Курс с таким именем не найден');
+//     console.log('Курс з таким ім'ям не знайдено');
 //     return;
 //   }
 
@@ -223,7 +223,7 @@ console.log(calcAverage(1, 2, 3, 4)); // 2.5
 
 // function updateCourse(oldName, newName) {
 //   if (!courses.includes(oldName)) {
-//     console.log('Курс с таким именем не найден');
+//     console.log('Курс з таким ім'ям не знайдено');
 //     return;
 //   }
 
@@ -240,8 +240,3 @@ console.log(calcAverage(1, 2, 3, 4)); // 2.5
 // console.log('2');
 // console.log('3');
 // showMessage();
-
-//вкладені масиви
-// const users = ['Poly', 'Ajax', ['🍑', '🍌', '🍋']];
-
-// console.log(users);
