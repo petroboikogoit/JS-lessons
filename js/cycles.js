@@ -209,20 +209,9 @@
 //   console.log(i);
 // }
 
-const str = 'string';
+// const str = 'string';
 
-for (let i of str) {
-  console.log(i, str.indexOf(i));
-}
-
-// -- області видимості
-
-// const number = 20; // 20
-
-// if (true) {
-//   const number = 10; // 10
-
-//   console.log(number); // 10
+// for (let i of str) {
+//   console.log(i, str.indexOf(i));
 // }
 
-// console.log(number); // 20
