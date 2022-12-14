@@ -6,7 +6,7 @@
 // const num = 20;
 // const num2 = 3;
 
-// const result = num + num2;
+// const result = num - num2;
 
 // console.log(result);
 
@@ -16,17 +16,16 @@
 */
 
 //? Провірити чи числа парні 15, 20, 45, 30.
-// const isEven = 30 % 2 === 0;
+// const isEven = 13 % 2 === 0;
 
-// console.log(Boolean(isEven));
+// console.log(isEven);
 
 /*
   ? Дано 90 хв, взнати скільки в даному числі годин і хвилин.
   ? Результат вивести в консоль.
 */
-// const totalMinutes = 140;
-// let hours = totalMinutes / 60;
-// hours = Math.floor(hours);
+// const totalMinutes = 090;
+// const hours = Math.floor(totalMinutes / 60);
 // const minutes = totalMinutes % 60;
 
 // console.log(String(hours).padStart(2, 0), ':', String(minutes).padStart(2, 0));
@@ -37,7 +36,7 @@
 // const num = Number(prompt('Введіть перше число'));
 // const num2 = Number(prompt('ВВедіть друге число'));
 
-// const result = num + num2;
+// const result = num * num2;
 
 // console.log(result);
 
@@ -52,18 +51,23 @@
   ? Перетворіть строку в число.
 */
 
+// const num = Number(prompt('ВВедіть перше число'));
+// const num2 = prompt('ВВедіть друге число');
+
+// console.log(num + num2);
+
 //? Дана строка '24px', дістаньте з цієї строки ціле число.
 // const str = parseInt('24px');
 
 // console.log(str);
 
 //? Дана строка '25.5%', дістаньте з цієї строки дробове число.
-const str = parseFloat('25.5%');
+// const str = parseFloat('25.5%');
 
-console.log(str);
+// console.log(str);
 
 //? Спробуйте привести до числа, дану строку 'abc'.
-// const str = Number('abc');
+// const str = Number('22f');
 
 // console.log(str);
 
@@ -77,8 +81,8 @@ console.log(str);
   ? Дане число 23.5, застосуйте до нього різні способи округлення.
   ? Протестуйте на числах, 23.3, 23.9
 */
-// const number = 23.3;
-// const result = Math.round(number);
+// const number = 23.5;
+// const result = 4 ** 2;
 
 // console.log(result);
 
@@ -98,10 +102,17 @@ console.log(str);
   ? Згенеруйте рандомне число:
   ? от 0 до 1;
   ? от 10 до 50.
+  
 */
-// Math.floor(min + Math.random() * (max + 1 - min));
+
+// const min = 0;
+// const max = 1;
+
+// Math.floor(min + Math.random() * (max + 1 - 0));
 // const randomNumber = Math.random();
 // console.log(randomNumber);
+
+console.log(Math.random() * 2);
 
 //? Згенеруйте рандомне число. Мінімальне та максимальнe значення, отримати від користувача
 

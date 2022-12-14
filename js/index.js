@@ -8,10 +8,11 @@
  */
 
 // console.log('10');
+// console.log(10);
 // alert('Hello');
 
 /*
- * змінні:  let та const,
+ * змінні:  let та const  (var),
  */
 
 // someVariabel = 'text';
@@ -23,7 +24,7 @@
 
 // const userLastName = 'Last';
 // userLastName = 'Ann';
-// console.log(username);
+// console.log(userLastName);
 
 // var oldSyntax = 'bad practice';
 // console.log(oldSyntax);
@@ -32,6 +33,8 @@
  * отримання даних: prompt, confirm.
  */
 // const userAge = prompt('Скільки тобі років?');
-// const isAdult = confirm('Тобі є 18 років?');
+// console.log(userAge);
 
-// console.log(isAdult);
+const isAdult = confirm('Тобі є 18 років?');
+
+console.log(isAdult);

@@ -7,10 +7,10 @@
  * Рядки порівнюються по unicode.
  * При порівнянні рядків, рядки порівнюються посимвольно.
  * При порівнянні різних типів, операнди наводяться до числа.
- * null не дорівнює нічому крім себе та undefined.
- * undefined не дорівнює нічому крім себе та null.
+ * null не дорівнює нічому крім себе та undefined. //==
+ * undefined не дорівнює нічому крім себе та null. //==
  */
-
+// console.log('Ab' == 'AB');
 /*
  * Приведення різних типів до:
 
@@ -20,16 +20,17 @@
  * null --> 0
  * undefined --> 0
  */
+// console.log(null === undefined);
 
 //* Оператор меньше (<)
 // console.log(2 < 12);
-// console.log(12 < 2);
+// console.log('1' > 2);
 // console.log('a' < 'b');
 // console.log('b' < 'a');
 // console.log('A' < 'a');
-// console.log('apple' < 'ananana');
+// console.log('ap' < 'aps');
 // console.log('bananana' < 'apple');
-// console.log(true < false);
+// console.log(true > false);
 // console.log(false < true);
 
 //* Оператор більше (>)
@@ -38,7 +39,7 @@
 
 //* Оператор меньше або рівне (<=)
 // console.log(5 <= 6);
-// console.log(5 <= 5);
+// console.log('5' >= 5);
 // console.log(5 <= 4);
 
 //* Оператор більше або рівне (>=)
@@ -60,11 +61,11 @@
 //* Строге порівняння (===)
 // console.log('123' === 123);
 // console.log(null === null);
-// console.log(2 + 2 === 4);
+// console.log(4 === 2 + 2);
 // console.log(0 === -0);
 
 //* Не рівне (!=)
-// console.log('4' != 4);
+console.log('4' != 4);
 
 //* Строго не рівно (!==)
-// console.log('4' !== 4);
+console.log('4' !== 4);
